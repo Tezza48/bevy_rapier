@@ -28,7 +28,7 @@ serde-serialize = [ "rapier3d/serde-serialize" ]
 enhanced-determinism = [ "rapier3d/enhanced-determinism" ]
 
 [dependencies]
-bevy = { git="https://github.com/bevyengine/bevy.git", rev="c25b41a0387a06693b502f2fbddc9b13e0d02ece", default-features = false, features = ["render"]}
+bevy = { git = "https://github.com/Tezza48/bevy.git", branch = "ft/scene-iteration-cherry-pick", default-features = false, features = ["render"]}
 nalgebra = "0.23"
 rapier3d = "0.4"
 concurrent-queue = "1"
